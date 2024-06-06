@@ -1,0 +1,77 @@
+.container {
+    width: 500px;
+    height: 500px;
+    border: 2px solid blue;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 500px; 
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 2px solid red;
+    position: absolute;
+}
+
+.top-left {
+    top: 0;
+    left: 0;
+}
+
+.top-right {
+    top: 0;
+    right: 0;
+}
+
+.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-right {
+    bottom: 0;
+    right: 0;
+}
+
+.top-center {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bottom-center {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.center-left {
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.center-right {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.text-center {
+    font-size: 24px;
+    color: red;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height:normal; 
+}
